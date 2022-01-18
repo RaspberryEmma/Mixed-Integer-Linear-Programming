@@ -1,0 +1,306 @@
+Constituency  1 :  {'2'}
+Votes for Joris =  15000
+Total Voters =  50000
+Joris loses
+
+Constituency  2 :  {'4'}
+Votes for Joris =  42000
+Total Voters =  70000
+Joris wins
+
+Constituency  3 :  {'12'}
+Votes for Joris =  27000
+Total Voters =  60000
+Joris loses
+
+Constituency  4 :  {'1', '2'}
+Votes for Joris =  32500
+Total Voters =  80000
+Joris loses
+
+Constituency  5 :  {'1', '5'}
+Votes for Joris =  35500
+Total Voters =  50000
+Joris wins
+
+Constituency  6 :  {'2', '3'}
+Votes for Joris =  29200
+Total Voters =  70000
+Joris loses
+
+Constituency  7 :  {'5', '2'}
+Votes for Joris =  33000
+Total Voters =  70000
+Joris loses
+
+Constituency  8 :  {'4', '3'}
+Votes for Joris =  56200
+Total Voters =  90000
+Joris wins
+
+Constituency  9 :  {'5', '3'}
+Votes for Joris =  32200
+Total Voters =  40000
+Joris wins
+
+Constituency  10 :  {'5', '4'}
+Votes for Joris =  60000
+Total Voters =  90000
+Joris wins
+
+Constituency  11 :  {'5', '6'}
+Votes for Joris =  27000
+Total Voters =  60000
+Joris loses
+
+Constituency  12 :  {'5', '10'}
+Votes for Joris =  52000
+Total Voters =  80000
+Joris wins
+
+Constituency  13 :  {'7', '6'}
+Votes for Joris =  21000
+Total Voters =  70000
+Joris loses
+
+Constituency  14 :  {'6', '8'}
+Votes for Joris =  19000
+Total Voters =  70000
+Joris loses
+
+Constituency  15 :  {'7', '8'}
+Votes for Joris =  22000
+Total Voters =  60000
+Joris loses
+
+Constituency  16 :  {'7', '9'}
+Votes for Joris =  38000
+Total Voters =  70000
+Joris wins
+
+Constituency  17 :  {'9', '8'}
+Votes for Joris =  36000
+Total Voters =  70000
+Joris wins
+
+Constituency  18 :  {'10', '8'}
+Votes for Joris =  44000
+Total Voters =  90000
+Joris loses
+
+Constituency  19 :  {'11', '8'}
+Votes for Joris =  12500
+Total Voters =  40000
+Joris loses
+
+Constituency  20 :  {'11', '9'}
+Votes for Joris =  28500
+Total Voters =  50000
+Joris wins
+
+Constituency  21 :  {'12', '9'}
+Votes for Joris =  53000
+Total Voters =  100000
+Joris wins
+
+Constituency  22 :  {'11', '10'}
+Votes for Joris =  36500
+Total Voters =  70000
+Joris wins
+
+Constituency  23 :  {'10', '13'}
+Votes for Joris =  63000
+Total Voters =  100000
+Joris wins
+
+Constituency  24 :  {'11', '12'}
+Votes for Joris =  29500
+Total Voters =  70000
+Joris loses
+
+Constituency  25 :  {'11', '13'}
+Votes for Joris =  31500
+Total Voters =  50000
+Joris wins
+
+Constituency  26 :  {'12', '14'}
+Votes for Joris =  42000
+Total Voters =  100000
+Joris loses
+
+Constituency  27 :  {'13', '14'}
+Votes for Joris =  44000
+Total Voters =  80000
+Joris wins
+
+Constituency  28 :  {'1', '5', '2'}
+Votes for Joris =  50500
+Total Voters =  100000
+Joris wins
+
+Constituency  29 :  {'1', '2', '3'}
+Votes for Joris =  46700
+Total Voters =  100000
+Joris loses
+
+Constituency  30 :  {'1', '5', '3'}
+Votes for Joris =  49700
+Total Voters =  70000
+Joris wins
+
+Constituency  31 :  {'1', '5', '6'}
+Votes for Joris =  44500
+Total Voters =  90000
+Joris loses
+
+Constituency  32 :  {'5', '2', '3'}
+Votes for Joris =  47200
+Total Voters =  90000
+Joris wins
+
+Constituency  33 :  {'5', '6', '3'}
+Votes for Joris =  41200
+Total Voters =  80000
+Joris wins
+
+Constituency  34 :  {'5', '10', '3'}
+Votes for Joris =  66200
+Total Voters =  100000
+Joris wins
+
+Constituency  35 :  {'7', '5', '6'}
+Votes for Joris =  39000
+Total Voters =  90000
+Joris loses
+
+Constituency  36 :  {'5', '6', '8'}
+Votes for Joris =  37000
+Total Voters =  90000
+Joris loses
+
+Constituency  37 :  {'11', '5', '10'}
+Votes for Joris =  54500
+Total Voters =  90000
+Joris wins
+
+Constituency  38 :  {'7', '6', '8'}
+Votes for Joris =  31000
+Total Voters =  100000
+Joris loses
+
+Constituency  39 :  {'11', '6', '8'}
+Votes for Joris =  21500
+Total Voters =  80000
+Joris loses
+
+Constituency  40 :  {'7', '9', '8'}
+Votes for Joris =  48000
+Total Voters =  100000
+Joris loses
+
+Constituency  41 :  {'11', '7', '8'}
+Votes for Joris =  24500
+Total Voters =  70000
+Joris loses
+
+Constituency  42 :  {'11', '7', '9'}
+Votes for Joris =  40500
+Total Voters =  80000
+Joris wins
+
+Constituency  43 :  {'11', '9', '8'}
+Votes for Joris =  38500
+Total Voters =  80000
+Joris loses
+
+Constituency  44 :  {'11', '10', '8'}
+Votes for Joris =  46500
+Total Voters =  100000
+Joris loses
+
+Constituency  45 :  {'11', '12', '8'}
+Votes for Joris =  39500
+Total Voters =  100000
+Joris loses
+
+Constituency  46 :  {'11', '8', '13'}
+Votes for Joris =  41500
+Total Voters =  80000
+Joris wins
+
+Constituency  47 :  {'11', '9', '13'}
+Votes for Joris =  57500
+Total Voters =  90000
+Joris wins
+
+Constituency  48 :  {'11', '13', '14'}
+Votes for Joris =  46500
+Total Voters =  90000
+Joris wins
+
+Constituency  49 :  {'11', '5', '6', '8'}
+Votes for Joris =  39500
+Total Voters =  100000
+Joris loses
+
+Number of constituencies =  49
+Number of constituencies where Joris wins =  24 
+
+Constituency  1 :  0
+Constituency  2 :  1
+Constituency  3 :  0
+Constituency  4 :  0
+Constituency  5 :  1
+
+Constituency  6 :  0
+Constituency  7 :  0
+Constituency  8 :  1
+Constituency  9 :  1
+Constituency  10 :  1
+
+Constituency  11 :  0
+Constituency  12 :  1
+Constituency  13 :  0
+Constituency  14 :  0
+Constituency  15 :  0
+
+Constituency  16 :  1
+Constituency  17 :  1
+Constituency  18 :  0
+Constituency  19 :  0
+Constituency  20 :  1
+
+Constituency  21 :  1
+Constituency  22 :  1
+Constituency  23 :  1
+Constituency  24 :  0
+Constituency  25 :  1
+
+Constituency  26 :  0
+Constituency  27 :  1
+Constituency  28 :  1
+Constituency  29 :  0
+Constituency  30 :  1
+
+Constituency  31 :  0
+Constituency  32 :  1
+Constituency  33 :  1
+Constituency  34 :  1
+Constituency  35 :  0
+
+Constituency  36 :  0
+Constituency  37 :  1
+Constituency  38 :  0
+Constituency  39 :  0
+Constituency  40 :  0
+
+Constituency  41 :  0
+Constituency  42 :  1
+Constituency  43 :  0
+Constituency  44 :  0
+Constituency  45 :  0
+
+Constituency  46 :  1
+Constituency  47 :  1
+Constituency  48 :  1
+Constituency  49 :  0

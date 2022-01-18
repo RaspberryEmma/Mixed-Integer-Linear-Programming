@@ -1,0 +1,159 @@
+Number of shires =  14
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+
+
+Number of possible adjacency connections =  25
+[1, 2]
+[1, 5]
+[2, 3]
+[2, 5]
+[3, 4]
+[3, 5]
+[4, 5]
+[4, 10]
+[5, 6]
+[5, 10]
+[6, 7]
+[6, 8]
+[7, 8]
+[7, 9]
+[8, 9]
+[8, 10]
+[8, 11]
+[9, 11]
+[9, 12]
+[10, 11]
+[10, 13]
+[11, 12]
+[11, 13]
+[12, 14]
+[13, 14]
+
+
+Number of valid 1-shire constituencies =  3
+2
+4
+12
+
+
+Number of valid 2-shire constituencies =  24
+[1, 2]
+[1, 5]
+[2, 3]
+[2, 5]
+[3, 4]
+[3, 5]
+[4, 5]
+[5, 6]
+[5, 10]
+[6, 7]
+[6, 8]
+[7, 8]
+[7, 9]
+[8, 9]
+[8, 10]
+[8, 11]
+[9, 11]
+[9, 12]
+[10, 11]
+[10, 13]
+[11, 12]
+[11, 13]
+[12, 14]
+[13, 14]
+
+
+Number of valid 3-shire constituencies =  21
+[1, 2, 5]
+[1, 2, 3]
+[1, 3, 5]
+[1, 5, 6]
+[2, 3, 5]
+[3, 5, 6]
+[3, 5, 10]
+[5, 6, 7]
+[5, 6, 8]
+[5, 10, 11]
+[6, 7, 8]
+[6, 8, 11]
+[7, 8, 9]
+[7, 8, 11]
+[7, 9, 11]
+[8, 9, 11]
+[8, 10, 11]
+[8, 11, 12]
+[8, 11, 13]
+[9, 11, 13]
+[11, 13, 14]
+
+
+Number of valid 4-shire constituencies =  1
+[5, 6, 8, 11]
+
+
+Number of valid 5-shire constituencies =  0
+
+
+Total number of valid constituencies =  49
+Constituency  1 : 	 [2]
+Constituency  2 : 	 [4]
+Constituency  3 : 	 [12]
+Constituency  4 : 	 [1, 2]
+Constituency  5 : 	 [1, 5]
+Constituency  6 : 	 [2, 3]
+Constituency  7 : 	 [2, 5]
+Constituency  8 : 	 [3, 4]
+Constituency  9 : 	 [3, 5]
+Constituency  10 : 	 [4, 5]
+Constituency  11 : 	 [5, 6]
+Constituency  12 : 	 [5, 10]
+Constituency  13 : 	 [6, 7]
+Constituency  14 : 	 [6, 8]
+Constituency  15 : 	 [7, 8]
+Constituency  16 : 	 [7, 9]
+Constituency  17 : 	 [8, 9]
+Constituency  18 : 	 [8, 10]
+Constituency  19 : 	 [8, 11]
+Constituency  20 : 	 [9, 11]
+Constituency  21 : 	 [9, 12]
+Constituency  22 : 	 [10, 11]
+Constituency  23 : 	 [10, 13]
+Constituency  24 : 	 [11, 12]
+Constituency  25 : 	 [11, 13]
+Constituency  26 : 	 [12, 14]
+Constituency  27 : 	 [13, 14]
+Constituency  28 : 	 [1, 2, 5]
+Constituency  29 : 	 [1, 2, 3]
+Constituency  30 : 	 [1, 3, 5]
+Constituency  31 : 	 [1, 5, 6]
+Constituency  32 : 	 [2, 3, 5]
+Constituency  33 : 	 [3, 5, 6]
+Constituency  34 : 	 [3, 5, 10]
+Constituency  35 : 	 [5, 6, 7]
+Constituency  36 : 	 [5, 6, 8]
+Constituency  37 : 	 [5, 10, 11]
+Constituency  38 : 	 [6, 7, 8]
+Constituency  39 : 	 [6, 8, 11]
+Constituency  40 : 	 [7, 8, 9]
+Constituency  41 : 	 [7, 8, 11]
+Constituency  42 : 	 [7, 9, 11]
+Constituency  43 : 	 [8, 9, 11]
+Constituency  44 : 	 [8, 10, 11]
+Constituency  45 : 	 [8, 11, 12]
+Constituency  46 : 	 [8, 11, 13]
+Constituency  47 : 	 [9, 11, 13]
+Constituency  48 : 	 [11, 13, 14]
+Constituency  49 : 	 [5, 6, 8, 11]

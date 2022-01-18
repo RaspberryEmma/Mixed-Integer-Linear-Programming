@@ -1,0 +1,29 @@
+Constituency  8 :  {'4', '3'}
+Votes for Joris =  56200
+Total Voters =  90000
+Joris wins
+
+Constituency  21 :  {'12', '9'}
+Votes for Joris =  53000
+Total Voters =  100000
+Joris wins
+
+Constituency  22 :  {'11', '10'}
+Votes for Joris =  36500
+Total Voters =  70000
+Joris wins
+
+Constituency  27 :  {'13', '14'}
+Votes for Joris =  44000
+Total Voters =  80000
+Joris wins
+
+Constituency  28 :  {'1', '5', '2'}
+Votes for Joris =  50500
+Total Voters =  100000
+Joris wins
+
+Constituency  38 :  {'7', '6', '8'}
+Votes for Joris =  31000
+Total Voters =  100000
+Joris loses

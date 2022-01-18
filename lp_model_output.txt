@@ -1,0 +1,121 @@
+Thu Dec 09 2021 19:29:47 GMT+0000 (Greenwich Mean Time)
+FICO Xpress Mosel 64-bit v5.8.0, FICO Xpress v8.13.0
+(c) Copyright Fair Isaac Corporation 2001-2021. All rights reserved
+Compiling lp_model.mos to out\lp_model.bim with -g
+Running model
+
+Sanity check of columns sums in M:
+Con j = 1, sum (of shires i) of M(i, j) = 1
+Con j = 2, sum (of shires i) of M(i, j) = 1
+Con j = 3, sum (of shires i) of M(i, j) = 1
+
+
+Con j = 4, sum (of shires i) of M(i, j) = 2
+Con j = 5, sum (of shires i) of M(i, j) = 2
+Con j = 6, sum (of shires i) of M(i, j) = 2
+Con j = 7, sum (of shires i) of M(i, j) = 2
+Con j = 8, sum (of shires i) of M(i, j) = 2
+Con j = 9, sum (of shires i) of M(i, j) = 2
+Con j = 10, sum (of shires i) of M(i, j) = 2
+Con j = 11, sum (of shires i) of M(i, j) = 2
+Con j = 12, sum (of shires i) of M(i, j) = 2
+Con j = 13, sum (of shires i) of M(i, j) = 2
+Con j = 14, sum (of shires i) of M(i, j) = 2
+Con j = 15, sum (of shires i) of M(i, j) = 2
+Con j = 16, sum (of shires i) of M(i, j) = 2
+Con j = 17, sum (of shires i) of M(i, j) = 2
+Con j = 18, sum (of shires i) of M(i, j) = 2
+Con j = 19, sum (of shires i) of M(i, j) = 2
+Con j = 20, sum (of shires i) of M(i, j) = 2
+Con j = 21, sum (of shires i) of M(i, j) = 2
+Con j = 22, sum (of shires i) of M(i, j) = 2
+Con j = 23, sum (of shires i) of M(i, j) = 2
+Con j = 24, sum (of shires i) of M(i, j) = 2
+Con j = 25, sum (of shires i) of M(i, j) = 2
+Con j = 26, sum (of shires i) of M(i, j) = 2
+Con j = 27, sum (of shires i) of M(i, j) = 2
+
+
+Con j = 28, sum (of shires i) of M(i, j) = 3
+Con j = 29, sum (of shires i) of M(i, j) = 3
+Con j = 30, sum (of shires i) of M(i, j) = 3
+Con j = 31, sum (of shires i) of M(i, j) = 3
+Con j = 32, sum (of shires i) of M(i, j) = 3
+Con j = 33, sum (of shires i) of M(i, j) = 3
+Con j = 34, sum (of shires i) of M(i, j) = 3
+Con j = 35, sum (of shires i) of M(i, j) = 3
+Con j = 36, sum (of shires i) of M(i, j) = 3
+Con j = 37, sum (of shires i) of M(i, j) = 3
+Con j = 38, sum (of shires i) of M(i, j) = 3
+Con j = 39, sum (of shires i) of M(i, j) = 3
+Con j = 40, sum (of shires i) of M(i, j) = 3
+Con j = 41, sum (of shires i) of M(i, j) = 3
+Con j = 42, sum (of shires i) of M(i, j) = 3
+Con j = 43, sum (of shires i) of M(i, j) = 3
+Con j = 44, sum (of shires i) of M(i, j) = 3
+Con j = 45, sum (of shires i) of M(i, j) = 3
+Con j = 46, sum (of shires i) of M(i, j) = 3
+Con j = 47, sum (of shires i) of M(i, j) = 3
+Con j = 48, sum (of shires i) of M(i, j) = 3
+
+
+Con j = 49, sum (of shires i) of M(i, j) = 4
+
+Begin running model
+
+Optimal number of representatives = 5
+
+Solution of Chosen Constituencies:
+        con = 1, x = 0
+        con = 2, x = 0
+        con = 3, x = 0
+        con = 4, x = 0
+        con = 5, x = 0
+        con = 6, x = 0
+        con = 7, x = 0
+        con = 8, x = 1
+        con = 9, x = 0
+        con = 10, x = 0
+        con = 11, x = 0
+        con = 12, x = 0
+        con = 13, x = 0
+        con = 14, x = 0
+        con = 15, x = 0
+        con = 16, x = 0
+        con = 17, x = 0
+        con = 18, x = 0
+        con = 19, x = 0
+        con = 20, x = 0
+        con = 21, x = 1
+        con = 22, x = 1
+        con = 23, x = 0
+        con = 24, x = 0
+        con = 25, x = 0
+        con = 26, x = 0
+        con = 27, x = 1
+        con = 28, x = 1
+        con = 29, x = 0
+        con = 30, x = 0
+        con = 31, x = 0
+        con = 32, x = 0
+        con = 33, x = 0
+        con = 34, x = 0
+        con = 35, x = 0
+        con = 36, x = 0
+        con = 37, x = 0
+        con = 38, x = 1
+        con = 39, x = 0
+        con = 40, x = 0
+        con = 41, x = 0
+        con = 42, x = 0
+        con = 43, x = 0
+        con = 44, x = 0
+        con = 45, x = 0
+        con = 46, x = 0
+        con = 47, x = 0
+        con = 48, x = 0
+        con = 49, x = 0
+
+End running model
+
+Process exited with code: 0

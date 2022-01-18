@@ -1,0 +1,150 @@
+(!
+	Math6002: Deterministic OR Methods
+	Coursework XPress IVE Model
+	Name: Emma Tarmey
+	ID: 2940 4045
+!)
+
+model LPModel
+	uses "mmxprs";
+
+	declarations
+		! constants
+		C = 6
+		constituencies = 1..49
+		shires         = 1..14
+
+		! data
+		b: array(shires) of real
+		y: array(constituencies) of real
+		M: array(shires, constituencies) of real
+
+		! variables
+		x: array(constituencies) of mpvar ! decision variable
+	end-declarations
+
+	! vector of size 14
+	b :: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1,
+		  1, 1, 1, 1]
+
+	! vector of size 49
+	y :: [0, 1, 0,
+
+	      0, 1, 0, 0, 1,
+	      1, 1, 0, 1, 0,
+	      0, 0, 1, 1, 0,
+	      0, 1, 1, 1, 1,
+	      0, 1, 0, 1,
+
+	      1, 0, 1, 0, 1,
+	      1, 1, 0, 0, 1,
+	      0, 0, 0, 0, 1,
+	      0, 0, 0, 1, 1,
+	      1,
+
+	      0]
+
+	! M is matrix of size (14 x 49)
+	! linebreaks inserted for formatting when included in report
+	M :: [0, 0, 0,   1, 1, 0, 0, 0,   0, 0, 0, 0, 0,   0, 0, 0, 0, 0,
+	      0, 0, 0, 0, 0, 0, 0, 0, 0,   1, 1, 1, 1, 0,   0, 0, 0, 0, 0,
+	      0, 0, 0, 0, 0,   0, 0, 0, 0, 0,   0,   0,
+
+		  1, 0, 0,   1, 0, 1, 1, 0,   0, 0, 0, 0, 0,   0, 0, 0, 0, 0,
+		  0, 0, 0, 0, 0,   0, 0, 0, 0,   1, 1, 0, 0, 1,
+		  0, 0, 0, 0, 0,   0, 0, 0, 0, 0,   0, 0, 0, 0, 0,   0,   0,
+
+		  0, 0, 0,   0, 0, 1, 0, 1,   1, 0, 0, 0, 0,   0, 0, 0, 0, 0,
+		  0, 0, 0, 0, 0,   0, 0, 0, 0,   0, 1, 1, 0, 1,
+		  1, 1, 0, 0, 0,   0, 0, 0, 0, 0,   0, 0, 0, 0, 0,   0,   0,
+
+		  0, 1, 0,   0, 0, 0, 0, 1,   0, 1, 0, 0, 0,   0, 0, 0, 0, 0,
+		  0, 0, 0, 0, 0,   0, 0, 0, 0,   0, 0, 0, 0, 0,
+		  0, 0, 0, 0, 0,   0, 0, 0, 0, 0,   0, 0, 0, 0, 0,   0,   0,
+
+		  0, 0, 0,   0, 1, 0, 1, 0,   1, 1, 1, 1, 0,   0, 0, 0, 0, 0,
+		  0, 0, 0, 0, 0,   0, 0, 0, 0,   1, 0, 1, 1, 1,
+		  1, 1, 1, 1, 1,   0, 0, 0, 0, 0,   0, 0, 0, 0, 0,   0,   1,
+
+
+		  0, 0, 0,   0, 0, 0, 0, 0,   0, 0, 1, 0, 1,   1, 0, 0, 0, 0,
+		  0, 0, 0, 0, 0,   0, 0, 0, 0,   0, 0, 0, 1, 0,
+		  1, 0, 1, 1, 0,   1, 1, 0, 0, 0,   0, 0, 0, 0, 0,   0,   1,
+
+		  0, 0, 0,   0, 0, 0, 0, 0,   0, 0, 0, 0, 1,   0, 1, 1, 0, 0,
+		  0, 0, 0, 0, 0,   0, 0, 0, 0,   0, 0, 0, 0, 0,
+		  0, 0, 1, 0, 0,   1, 0, 1, 1, 1,   0, 0, 0, 0, 0,   0,   0,
+
+		  0, 0, 0,   0, 0, 0, 0, 0,   0, 0, 0, 0, 0,   1, 1, 0, 1, 1,
+		  1, 0, 0, 0, 0,   0, 0, 0, 0,   0, 0, 0, 0, 0,
+		  0, 0, 0, 1, 0,   1, 1, 1, 1, 0,   1, 1, 1, 1, 0,   0,   1,
+
+		  0, 0, 0,   0, 0, 0, 0, 0,   0, 0, 0, 0, 0,   0, 0, 1, 1, 0,
+		  0, 1, 1, 0, 0,   0, 0, 0, 0,   0, 0, 0, 0, 0,
+		  0, 0, 0, 0, 0,   0, 0, 1, 0, 1,   1, 0, 0, 0, 1,   0,   0,
+
+		  0, 0, 0,   0, 0, 0, 0, 0,   0, 0, 0, 1, 0,   0, 0, 0, 0, 1,
+		  0, 0, 0, 1, 1,   0, 0, 0, 0,   0, 0, 0, 0, 0,
+		  0, 1, 0, 0, 1,   0, 0, 0, 0, 0,   0, 1, 0, 0, 0,   0,   0,
+
+
+		  0, 0, 0,   0, 0, 0, 0, 0,   0, 0, 0, 0, 0,   0, 0, 0, 0, 0,
+		  1, 1, 0, 1, 0,   1, 1, 0, 0,   0, 0, 0, 0, 0,
+		  0, 0, 0, 0, 1,   0, 1, 0, 1, 1,   1, 1, 1, 1, 1,   1,   1,
+
+		  0, 0, 1,   0, 0, 0, 0, 0,   0, 0, 0, 0, 0,   0, 0, 0, 0, 0,
+		  0, 0, 1, 0, 0,   1, 0, 1, 0,   0, 0, 0, 0, 0,
+		  0, 0, 0, 0, 0,   0, 0, 0, 0, 0,   0, 0, 1, 0, 0,   0,   0,
+
+		  0, 0, 0,   0, 0, 0, 0, 0,   0, 0, 0, 0, 0,   0, 0, 0, 0, 0,
+		  0, 0, 0, 0, 1,   0, 1, 0, 1,   0, 0, 0, 0, 0,
+		  0, 0, 0, 0, 0,   0, 0, 0, 0, 0,   0, 0, 0, 1, 1,   1,   0,
+
+		  0, 0, 0,   0, 0, 0, 0, 0,   0, 0, 0, 0, 0,   0, 0, 0, 0, 0,
+		  0, 0, 0, 0, 0,   0, 0, 1, 1,   0, 0, 0, 0, 0,
+		  0, 0, 0, 0, 0,   0, 0, 0, 0, 0,   0, 0, 0, 0, 0,   1,   0]
+
+	! As a sanity check, we may check that all of the columns in M
+	! columns should sum to 1, 2, 3 or 4 as appropriate
+	writeln("\nSanity check of columns sums in M:")
+	forall (j in constituencies) do
+		if (j = 4 or j = 28 or j = 49)
+		then writeln("\n")
+		end-if
+
+		writeln("Con j = ", j, ", sum (of shires i) of M(i, j) = ",
+		         sum (i in shires) (M(i, j)))
+	end-do
+
+	! objective function
+	total_representatives := sum(i in constituencies) ( x(i) * y(i) )
+
+	! constraints
+
+	! decision variable x is binary vector
+	forall (i in constituencies) x(i) is_binary
+
+	forall (i in shires) do
+		! check each shire appears exactly once
+		allocation(i) := sum (j in constituencies) (M(i, j) * x(j)) = 1
+	end-do
+
+	! map partition must contain C constituencies
+	sum (i in constituencies) x(i) = C
+
+	! run optimisation
+	maximise(total_representatives)
+
+	! output results
+	writeln("\nBegin running model\n")
+	writeln("Optimal number of representatives = ", getobjval, "\n")
+	writeln("Solution of Chosen Constituencies: ")
+
+	forall (i in constituencies) do
+		write  ("\tcon = ", i)
+		write  (", x = ", (getsol(x(i))))
+		write  ("\n")
+	end-do
+
+	writeln("\nEnd running model")
+end-model
